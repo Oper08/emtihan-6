@@ -1,45 +1,21 @@
-//task 1 
-let Eshop={
-    name: "Asemai",
-    phoneNomber: "8 777 000 20 08",
-    prduks: [
-       {
-        name1: "apple",
-        baga: "350000",
-        sany: "10"
-       },
-       {
-           name1: "samsung",
-           baga: "350000",
-           sany: "10"
-       },
-       {
-           name1: "redmi",
-           baga: "350000",
-           sany: "10"
-       },
-       {
-           name1: "redmi not",
-           baga: "350000",
-           sany: "10"
-       },
-       {
-           name1: "redmi t9",
-           baga: "350000",
-           sany: "10"
-       },
-    ],
+let btn = document.getElementById('btn')
+let silteme ='//api.jsonbin.io/v3/b/67965b2ee41b4d34e47efbb7'
+   
+
+async function fetchDate(){
+    const url = '//api.jsonbin.io/v3/b/67965b2ee41b4d34e47efbb7'
+    const 
+   
+}
+
+// function click(btn){
     
-   }
-   console.log(Eshop);
-   
-   //task 2
-   let updateNameMagazin = prompt("напишите новое название магазина");
-   changeShopName(updateNameMagazin)
-   let = function changeShopName(updateName) {
-       Eshop.name=updateNameMagazin  
-   }
-   console.log(Eshop);
-   
-   //task 3
-   
+
+// }
+// click()
+
+
+btn.addEventListener("click",Function(){
+    console.log("anuar");
+    
+})
